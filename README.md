@@ -1,13 +1,63 @@
-# Nuxt 3 Authentication using MongoDB, Refresh access token & Email Verification.
+# Nuxt 3 Minimal Starter
 
-This demo showcases seamless user authentication, featuring a refresh access token mechanism for API route protection. After registering, a verification email will be sent same thin when requesting a password reset. All-in-one example covering sign up, sign in, account verification, and password management.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-[![Video Example](./public//thumbnail-1.jpg)](https://www.youtube.com/watch?v=y6ulxSMYf40)
+## Setup
 
+Make sure to install the dependencies:
 
-Account Verification email template.
-![Account Verification](./public/account-verification.png)
+```bash
+# npm
+npm install
 
+# pnpm
+pnpm install
 
-Password Reset email template
-![Password Reset](./public/password-reset.png)
+# yarn
+yarn install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
