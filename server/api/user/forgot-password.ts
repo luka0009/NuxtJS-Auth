@@ -33,9 +33,10 @@ export default defineEventHandler(async (event) => {
 			});
 		}
 
-		const URLLink = `${
-			useRuntimeConfig().APP_URL
-		}/reset-password/?id=${id}&uuid=${user.uuid}`;
+		// const URLLink = `${
+		// 	useRuntimeConfig().APP_URL
+		// }/reset-password/?id=${id}&uuid=${user.uuid}`;
+		const URLLink = `https://nuxt-js-auth.vercel.app/reset-password/?id=${id}&uuid=${user.uuid}`;
 		const sendAnEmail = await sendEmail({
 			body: emailTemplate,
 			email: [user.email],
